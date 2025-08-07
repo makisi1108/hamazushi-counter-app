@@ -141,27 +141,37 @@
     }
 
     function addItem(item) {
-      total += item.price;
-      count++;
-      history.push(item);
-      updateSummary();
-    }
+  const audio = new Audio("add.mp3");  // ← 音声ファイルのパス（htmlと同じ階層にあるならこのままでOK）
+  audio.play();                        // ← 音を鳴らす
 
-    function reset() {
-      total = 0;
-      count = 0;
-      history = [];
-      updateSummary();
-    }
+  total += item.price;
+  count++;
+  history.push(item);
+  updateSummary();
+}
 
-    function undo() {
-      if (history.length > 0) {
-        const last = history.pop();
-        total -= last.price;
-        count--;
-        updateSummary();
-      }
-    }
+function undo() {
+  const audio = new Audio("undo.mp3"); // ← 戻る音
+  audio.play();
+
+  if (history.length > 0) {
+    const last = history.pop();
+    total -= last.price;
+    count--;
+    updateSummary();
+  }
+}
+
+function reset() {
+  const audio = new Audio("reset.mp3"); // ← リセット音
+  audio.play();
+
+  total = 0;
+  count = 0;
+  history = [];
+  updateSummary();
+}
+
 
     const menuDiv = document.getElementById("menu");
     menuItems.forEach(item => {
