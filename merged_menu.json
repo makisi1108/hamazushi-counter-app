@@ -1,0 +1,92 @@
+[
+  {
+    "category": "期間限定",
+    "name": "本鮪中とろ",
+    "price": 160,
+    "image": "本鮪中とろ.png"
+  },
+  {
+    "category": "にぎり",
+    "name": "サーモン",
+    "price": 100,
+    "image": "サーモン.png"
+  },
+  {
+    "category": "にぎり",
+    "name": "大とろサーモン",
+    "price": 120,
+    "image": "大とろサーモン.png"
+  },
+  {
+    "category": "にぎり",
+    "name": "まぐろたたき巻",
+    "price": 160,
+    "image": "まぐろたたき巻.png"
+  },
+  {
+    "category": "贅沢握り・三種盛り",
+    "name": "大粒いくら",
+    "price": 160,
+    "image": "大粒いくら.png"
+  },
+  {
+    "category": "サイドメニュー",
+    "name": "きつねうどん",
+    "price": 290,
+    "image": "きつねうどん.png"
+  },
+  {
+    "category": "サイドメニュー",
+    "name": "特製しょう油ラーメン",
+    "price": 390,
+    "image": "特製しょう油ラーメン.png"
+  },
+  {
+    "category": "期間限定",
+    "name": "厳選まぐろ中とろ",
+    "price": 160,
+    "image": "厳選まぐろ中とろ.png"
+  },
+  {
+    "category": "期間限定",
+    "name": "地中海産本鮪大とろ",
+    "price": 290,
+    "image": "地中海産本鮪大とろ.png"
+  },
+  {
+    "category": "にぎり",
+    "name": "サーモン山わさび",
+    "price": 100,
+    "image": "サーモン山わさび.png"
+  },
+  {
+    "category": "にぎり",
+    "name": "大とろサーモン山わさび",
+    "price": 120,
+    "image": "大とろサーモン山わさび.png"
+  },
+  {
+    "category": "軍艦",
+    "name": "まぐろたたき軍艦",
+    "price": 100,
+    "image": "まぐろたたき軍艦.png"
+  },
+  {
+    "category": "贅沢握り・三種盛り",
+    "name": "とろいくら",
+    "price": 160,
+    "image": "とろいくら.png"
+  },
+  {
+    "category": "贅沢握り・三種盛り",
+    "name": "サーモンつつみ",
+    "price": 160,
+    "image": "サーモンつつみ.png"
+  },
+  {
+    "category": "サイドメニュー",
+    "name": "特製茶わん蒸し",
+    "price": 190,
+    "image": "特製茶わん蒸し.png"
+  }
+]
